@@ -21,13 +21,13 @@ Element providing solution to no problem in particular.
 @status alpha
 @homepage http://polymerlabs.github.io/seed-element
 -->
-<polymer-element name="seed-element" attributes="notitle author">
+<polymer-element name="paper-header" attributes="notitle author">
 
   <template>
 
-    <link rel="stylesheet" href="seed-element.css">
+    <link rel="stylesheet" href="paper-header.css">
 
-    <h1>Hello from seed-element</h1>
+    <h1>Hello from paper-header</h1>
     <content></content>
 
   </template>
@@ -42,7 +42,7 @@ Element providing solution to no problem in particular.
        * @type string
        * @default 'Dimitri Glazkov'
        */
-      author: 'Dimitri Glazkov',
+      author: 'Wo King',
 
       /**
        * `fancy` is a property that does something fancy.
@@ -68,7 +68,7 @@ Element providing solution to no problem in particular.
        */
       sayHello: function(greeting) {
         var response = greeting || 'Hello World!';
-        return 'seed-element says, ' + response;
+        return 'paper-header says, ' + response;
       },
 
       /**
@@ -87,7 +87,7 @@ Element providing solution to no problem in particular.
        * @method fireLasers
        */
       fireLasers: function() {
-        this.fire('seed-element-lasers-success', { sound: 'Pew pew pew!' });
+        this.fire('paper-header-lasers-success', { sound: 'Pew pew pew!' });
       }
 
     });
