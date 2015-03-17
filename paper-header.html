@@ -1,5 +1,9 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../core-icons/core-icons.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../paper-progress/paper-progress.html">
+<link rel="import" href="../paper-icon-button/paper-icon-button.html">
+
 
 <polymer-element name="paper-header" attributes="Wo King">
 
@@ -7,12 +11,18 @@
 
     <link rel="stylesheet" href="paper-header.css">
 
-    <h1>Hello from paper-header</h1>
 
-    <core-icon icon="android"></core-icon>
-    <content>
-      
-    </content>
+    <core-toolbar >
+    <paper-icon-button icon="menu"></paper-icon-button>
+      <div>EH</div>
+      <span flex></span>
+    <paper-icon-button icon="search"></paper-icon-button>
+
+    </core-toolbar>
+
+
+
+    <content></content>
 
   </template>
 
