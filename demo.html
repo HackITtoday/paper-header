@@ -5,12 +5,23 @@
   <title>paper-header Demo</title>
 
   <script src="../webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="elements/elements.html">
   <link rel="import" href="paper-header.html">
+  <link rel="stylesheet" href="app.css">
 
 </head>
-<body unresolved fullbleed>
+<body unresolved fullbleed layout vertical>
 
-  <paper-header></paper-header>
+	<core-header-panel flex>
+        <core-toolbar>
+          <paper-icon-button icon="menu"></paper-icon-button>
+            <div>EH</div>
+            <span flex></span>
+          <paper-icon-button icon="search"></paper-icon-button>
+          	<div><a>Enquire</a></div>
+        </core-toolbar>
+
+    </core-header-panel>
 
 </body>
 </html>
